@@ -27,13 +27,6 @@
           "description": "Buy fruits, vegetables, and milk.",
           "due_date": "2024-09-29",
           "status": "Not Started"
-        },
-        {
-          "id": 3,
-          "title": "Workout",
-          "description": "Go to the gym for a 1-hour workout session.",
-          "due_date": "2024-09-28",
-          "status": "Completed"
         }
       ]
     },
@@ -64,12 +57,185 @@
           "description": "Join the team meeting to discuss project updates.",
           "due_date": "2024-09-27",
           "status": "Completed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "email": "robert.johnson@example.com",
+      "profile_image": "https://example.com/images/robert_johnson.jpg",
+      "address": {
+        "street": "789 Maple Ave",
+        "city": "Gotham",
+        "state": "NJ",
+        "country": "USA",
+        "zip_code": "07001"
+      },
+      "phone_number": "+1-555-333-5678",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Fix the sink",
+          "description": "Repair the leaky faucet in the kitchen.",
+          "due_date": "2024-09-28",
+          "status": "Not Started"
         },
         {
-          "id": 3,
-          "title": "Read a book",
-          "description": "Finish reading 'The Art of Coding'.",
+          "id": 2,
+          "title": "Prepare presentation",
+          "description": "Create slides for Monday's client meeting.",
+          "due_date": "2024-09-30",
+          "status": "In Progress"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "profile_image": "https://example.com/images/emily_davis.jpg",
+      "address": {
+        "street": "101 Pine St",
+        "city": "Star City",
+        "state": "CA",
+        "country": "USA",
+        "zip_code": "90210"
+      },
+      "phone_number": "+1-555-888-9999",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Book a dentist appointment",
+          "description": "Call the dentist and book an appointment.",
+          "due_date": "2024-10-03",
+          "status": "Not Started"
+        },
+        {
+          "id": 2,
+          "title": "Finish book",
+          "description": "Complete reading 'Atomic Habits'.",
+          "due_date": "2024-09-30",
+          "status": "In Progress"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Michael Williams",
+      "email": "michael.williams@example.com",
+      "profile_image": "https://example.com/images/michael_williams.jpg",
+      "address": {
+        "street": "202 Cedar St",
+        "city": "Blüdhaven",
+        "state": "TX",
+        "country": "USA",
+        "zip_code": "73301"
+      },
+      "phone_number": "+1-555-222-1111",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Update resume",
+          "description": "Add recent work experience to resume.",
+          "due_date": "2024-09-28",
+          "status": "In Progress"
+        },
+        {
+          "id": 2,
+          "title": "Buy new phone",
+          "description": "Research and purchase a new smartphone.",
           "due_date": "2024-10-01",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sophia Brown",
+      "email": "sophia.brown@example.com",
+      "profile_image": "https://example.com/images/sophia_brown.jpg",
+      "address": {
+        "street": "303 Oak St",
+        "city": "Central City",
+        "state": "CO",
+        "country": "USA",
+        "zip_code": "80427"
+      },
+      "phone_number": "+1-555-444-3333",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Plan weekend getaway",
+          "description": "Choose destination and book hotel for weekend trip.",
+          "due_date": "2024-10-07",
+          "status": "Not Started"
+        },
+        {
+          "id": 2,
+          "title": "Learn TypeScript",
+          "description": "Complete an online course on TypeScript.",
+          "due_date": "2024-09-29",
+          "status": "In Progress"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Liam Martinez",
+      "email": "liam.martinez@example.com",
+      "profile_image": "https://example.com/images/liam_martinez.jpg",
+      "address": {
+        "street": "404 Birch St",
+        "city": "Coast City",
+        "state": "FL",
+        "country": "USA",
+        "zip_code": "33101"
+      },
+      "phone_number": "+1-555-777-1234",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Attend yoga class",
+          "description": "Join a yoga session at the community center.",
+          "due_date": "2024-09-28",
+          "status": "Completed"
+        },
+        {
+          "id": 2,
+          "title": "Clean garage",
+          "description": "Organize the garage and donate unused items.",
+          "due_date": "2024-10-02",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Ava Garcia",
+      "email": "ava.garcia@example.com",
+      "profile_image": "https://example.com/images/ava_garcia.jpg",
+      "address": {
+        "street": "505 Redwood St",
+        "city": "Ivy Town",
+        "state": "OR",
+        "country": "USA",
+        "zip_code": "97035"
+      },
+      "phone_number": "+1-555-555-6666",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Organize office",
+          "description": "Clean and rearrange the home office space.",
+          "due_date": "2024-09-29",
+          "status": "Not Started"
+        },
+        {
+          "id": 2,
+          "title": "Finish marketing report",
+          "description": "Complete the marketing report for the quarterly review.",
+          "due_date": "2024-09-30",
           "status": "In Progress"
         }
       ]
