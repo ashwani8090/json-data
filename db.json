@@ -1,238 +1,78 @@
 {
-  "employees": [
+  "users": [
     {
       "id": 1,
       "name": "John Doe",
       "email": "john.doe@example.com",
-      "age": 28,
-      "location": "New York",
-      "profession": "Software Developer",
-      "image": "https://fakeimg.pl/250x250/?text=John%20Doe"
+      "profile_image": "https://example.com/images/john_doe.jpg",
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "country": "USA",
+        "zip_code": "62704"
+      },
+      "phone_number": "+1-555-123-4567",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Complete React project",
+          "description": "Finish the final module of the React application.",
+          "due_date": "2024-09-30",
+          "status": "In Progress"
+        },
+        {
+          "id": 2,
+          "title": "Grocery Shopping",
+          "description": "Buy fruits, vegetables, and milk.",
+          "due_date": "2024-09-29",
+          "status": "Not Started"
+        },
+        {
+          "id": 3,
+          "title": "Workout",
+          "description": "Go to the gym for a 1-hour workout session.",
+          "due_date": "2024-09-28",
+          "status": "Completed"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Jane Smith",
       "email": "jane.smith@example.com",
-      "age": 32,
-      "location": "San Francisco",
-      "profession": "Product Manager",
-      "image": "https://fakeimg.pl/250x250/?text=Jane%20Smith"
-    },
-    {
-      "id": 3,
-      "name": "Michael Johnson",
-      "email": "michael.johnson@example.com",
-      "age": 25,
-      "location": "Los Angeles",
-      "profession": "UI/UX Designer",
-      "image": "https://fakeimg.pl/250x250/?text=Michael%20Johnson"
-    },
-    {
-      "id": 4,
-      "name": "Emily Davis",
-      "email": "emily.davis@example.com",
-      "age": 29,
-      "location": "Chicago",
-      "profession": "Data Analyst",
-      "image": "https://fakeimg.pl/250x250/?text=Emily%20Davis"
-    },
-    {
-      "id": 5,
-      "name": "Daniel Wilson",
-      "email": "daniel.wilson@example.com",
-      "age": 35,
-      "location": "Seattle",
-      "profession": "DevOps Engineer",
-      "image": "https://fakeimg.pl/250x250/?text=Daniel%20Wilson"
-    },
-    {
-      "id": 6,
-      "name": "Sarah Brown",
-      "email": "sarah.brown@example.com",
-      "age": 31,
-      "location": "Austin",
-      "profession": "Marketing Specialist",
-      "image": "https://fakeimg.pl/250x250/?text=Sarah%20Brown"
-    },
-    {
-      "id": 7,
-      "name": "Chris Green",
-      "email": "chris.green@example.com",
-      "age": 24,
-      "location": "Boston",
-      "profession": "Sales Representative",
-      "image": "https://fakeimg.pl/250x250/?text=Chris%20Green"
-    },
-    {
-      "id": 8,
-      "name": "Jessica Lee",
-      "email": "jessica.lee@example.com",
-      "age": 27,
-      "location": "Denver",
-      "profession": "Graphic Designer",
-      "image": "https://fakeimg.pl/250x250/?text=Jessica%20Lee"
-    },
-    {
-      "id": 9,
-      "name": "Matthew Walker",
-      "email": "matthew.walker@example.com",
-      "age": 30,
-      "location": "Phoenix",
-      "profession": "Project Manager",
-      "image": "https://fakeimg.pl/250x250/?text=Matthew%20Walker"
-    },
-    {
-      "id": 10,
-      "name": "Olivia Hall",
-      "email": "olivia.hall@example.com",
-      "age": 26,
-      "location": "Miami",
-      "profession": "HR Manager",
-      "image": "https://fakeimg.pl/250x250/?text=Olivia%20Hall"
-    },
-    {
-      "id": 11,
-      "name": "Andrew Young",
-      "email": "andrew.young@example.com",
-      "age": 34,
-      "location": "Dallas",
-      "profession": "Network Administrator",
-      "image": "https://fakeimg.pl/250x250/?text=Andrew%20Young"
-    },
-    {
-      "id": 12,
-      "name": "Sophia King",
-      "email": "sophia.king@example.com",
-      "age": 29,
-      "location": "Portland",
-      "profession": "Content Writer",
-      "image": "https://fakeimg.pl/250x250/?text=Sophia%20King"
-    },
-    {
-      "id": 13,
-      "name": "Ethan Scott",
-      "email": "ethan.scott@example.com",
-      "age": 22,
-      "location": "Las Vegas",
-      "profession": "Web Developer",
-      "image": "https://fakeimg.pl/250x250/?text=Ethan%20Scott"
-    },
-    {
-      "id": 14,
-      "name": "Mia Lewis",
-      "email": "mia.lewis@example.com",
-      "age": 33,
-      "location": "Houston",
-      "profession": "Financial Analyst",
-      "image": "https://fakeimg.pl/250x250/?text=Mia%20Lewis"
-    },
-    {
-      "id": 15,
-      "name": "James Harris",
-      "email": "james.harris@example.com",
-      "age": 40,
-      "location": "Philadelphia",
-      "profession": "Operations Manager",
-      "image": "https://fakeimg.pl/250x250/?text=James%20Harris"
-    },
-    {
-      "id": 16,
-      "name": "Amelia White",
-      "email": "amelia.white@example.com",
-      "age": 28,
-      "location": "San Diego",
-      "profession": "Content Strategist",
-      "image": "https://fakeimg.pl/250x250/?text=Amelia%20White"
-    },
-    {
-      "id": 17,
-      "name": "Alexander Moore",
-      "email": "alexander.moore@example.com",
-      "age": 35,
-      "location": "Atlanta",
-      "profession": "Cybersecurity Specialist",
-      "image": "https://fakeimg.pl/250x250/?text=Alexander%20Moore"
-    },
-    {
-      "id": 18,
-      "name": "Charlotte Taylor",
-      "email": "charlotte.taylor@example.com",
-      "age": 27,
-      "location": "Nashville",
-      "profession": "Customer Support Specialist",
-      "image": "https://fakeimg.pl/250x250/?text=Charlotte%20Taylor"
-    },
-    {
-      "id": 19,
-      "name": "Benjamin Thomas",
-      "email": "benjamin.thomas@example.com",
-      "age": 29,
-      "location": "Orlando",
-      "profession": "Mobile App Developer",
-      "image": "https://fakeimg.pl/250x250/?text=Benjamin%20Thomas"
-    },
-    {
-      "id": 20,
-      "name": "Isabella Martinez",
-      "email": "isabella.martinez@example.com",
-      "age": 24,
-      "location": "Charlotte",
-      "profession": "SEO Specialist",
-      "image": "https://fakeimg.pl/250x250/?text=Isabella%20Martinez"
-    },
-    {
-      "id": 21,
-      "name": "Lucas Robinson",
-      "email": "lucas.robinson@example.com",
-      "age": 38,
-      "location": "Kansas City",
-      "profession": "Database Administrator",
-      "image": "https://fakeimg.pl/250x250/?text=Lucas%20Robinson"
-    },
-    {
-      "id": 22,
-      "name": "Harper Clark",
-      "email": "harper.clark@example.com",
-      "age": 26,
-      "location": "Detroit",
-      "profession": "Social Media Manager",
-      "image": "https://fakeimg.pl/250x250/?text=Harper%20Clark"
-    },
-    {
-      "id": 23,
-      "name": "Henry Lewis",
-      "email": "henry.lewis@example.com",
-      "age": 32,
-      "location": "Tampa",
-      "profession": "Business Analyst",
-      "image": "https://fakeimg.pl/250x250/?text=Henry%20Lewis"
-    },
-    {
-      "id": 24,
-      "name": "Ava Lee",
-      "email": "ava.lee@example.com",
-      "age": 28,
-      "location": "Cincinnati",
-      "profession": "UX Researcher",
-      "image": "https://fakeimg.pl/250x250/?text=Ava%20Lee"
-    },
-    {
-      "id": 25,
-      "name": "Sebastian Allen",
-      "email": "sebastian.allen@example.com",
-      "age": 31,
-      "location": "Pittsburgh",
-      "profession": "System Architect",
-      "image": "https://fakeimg.pl/250x250/?text=Sebastian%20Allen"
-    },
-    {
-      "id": 26,
-      "name": "Lily Perez",
-      "email": "lily.perez@example.com",
-      "age": 30,
-      "location": "Columbus",
-      "profession": "Recruitment Specialist",
-      "image": "https://fakeimg.pl/250x250/?text=Lily%20Perez"
+      "profile_image": "https://example.com/images/jane_smith.jpg",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Metropolis",
+        "state": "NY",
+        "country": "USA",
+        "zip_code": "10001"
+      },
+      "phone_number": "+1-555-987-6543",
+      "todos": [
+        {
+          "id": 1,
+          "title": "Plan vacation",
+          "description": "Research destinations and book flights for the family vacation.",
+          "due_date": "2024-10-05",
+          "status": "Not Started"
+        },
+        {
+          "id": 2,
+          "title": "Attend meeting",
+          "description": "Join the team meeting to discuss project updates.",
+          "due_date": "2024-09-27",
+          "status": "Completed"
+        },
+        {
+          "id": 3,
+          "title": "Read a book",
+          "description": "Finish reading 'The Art of Coding'.",
+          "due_date": "2024-10-01",
+          "status": "In Progress"
+        }
+      ]
     }
   ]
 }
