@@ -239,66 +239,6 @@
           "status": "In Progress"
         }
       ]
-    },
-    {
-      "id": 9,
-      "name": "James Wilson",
-      "email": "james.wilson@example.com",
-      "profile_image": "https://example.com/images/james_wilson.jpg",
-      "address": {
-        "street": "606 Cypress St",
-        "city": "National City",
-        "state": "PA",
-        "country": "USA",
-        "zip_code": "19104"
-      },
-      "phone_number": "+1-555-777-8888",
-      "todos": [
-        {
-          "id": 1,
-          "title": "Schedule car maintenance",
-          "description": "Book an appointment for a car oil change and inspection.",
-          "due_date": "2024-09-28",
-          "status": "Not Started"
-        },
-        {
-          "id": 2,
-          "title": "Write blog post",
-          "description": "Create content for the company blog.",
-          "due_date": "2024-09-30",
-          "status": "In Progress"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Isabella Taylor",
-      "email": "isabella.taylor@example.com",
-      "profile_image": "https://example.com/images/isabella_taylor.jpg",
-      "address": {
-        "street": "707 Fir St",
-        "city": "Opal City",
-        "state": "MD",
-        "country": "USA",
-        "zip_code": "21044"
-      },
-      "phone_number": "+1-555-999-0000",
-      "todos": [
-        {
-          "id": 1,
-          "title": "Plan birthday party",
-          "description": "Organize a surprise birthday party for a friend.",
-          "due_date": "2024-10-06",
-          "status": "In Progress"
-        },
-        {
-          "id": 2,
-          "title": "Study for certification",
-          "description": "Prepare for the upcoming professional certification exam.",
-          "due_date": "2024-09-29",
-          "status": "Not Started"
-        }
-      ]
     }
   ]
 }
