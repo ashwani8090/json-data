@@ -299,66 +299,6 @@
           "status": "Not Started"
         }
       ]
-    },
-    {
-      "id": 11,
-      "name": "William Anderson",
-      "email": "william.anderson@example.com",
-      "profile_image": "https://example.com/images/william_anderson.jpg",
-      "address": {
-        "street": "808 Spruce St",
-        "city": "Fawcett City",
-        "state": "OH",
-        "country": "USA",
-        "zip_code": "44114"
-      },
-      "phone_number": "+1-555-222-4444",
-      "todos": [
-        {
-          "id": 1,
-          "title": "Upgrade PC",
-          "description": "Buy and install a new graphics card for the gaming PC.",
-          "due_date": "2024-10-01",
-          "status": "In Progress"
-        },
-        {
-          "id": 2,
-          "title": "Go hiking",
-          "description": "Explore new hiking trails in the state park.",
-          "due_date": "2024-10-03",
-          "status": "Not Started"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Charlotte Moore",
-      "email": "charlotte.moore@example.com",
-      "profile_image": "https://example.com/images/charlotte_moore.jpg",
-      "address": {
-        "street": "909 Hickory St",
-        "city": "Riverdale",
-        "state": "GA",
-        "country": "USA",
-        "zip_code": "30274"
-      },
-      "phone_number": "+1-555-888-7777",
-      "todos": [
-        {
-          "id": 1,
-          "title": "Start painting",
-          "description": "Begin working on a new landscape painting.",
-          "due_date": "2024-09-30",
-          "status": "Not Started"
-        },
-        {
-          "id": 2,
-          "title": "Meal prep",
-          "description": "Prepare meals for the week ahead.",
-          "due_date": "2024-09-29",
-          "status": "In Progress"
-        }
-      ]
     }
   ]
 }
